@@ -1,0 +1,93 @@
+/* Kontener zawartości zakładek */
+.tab-content {
+  width: 100%;
+  max-width: 1200px; /* Maksymalna szerokość zawartości */
+  margin: 20px auto; /* Wyśrodkowanie kontenera */
+  padding: 20px; /* Odstępy wewnętrzne */
+  background-color: #f9f9f9; /* Jasne tło dla lepszej czytelności */
+  border-radius: 10px; /* Zaokrąglone rogi */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Delikatny cień */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start; /* Treść zaczyna się od góry */
+}
+
+/* Górny nagłówek z zakładkami i przyciskami */
+.tabs-header {
+  display: flex;
+  flex-direction: column; /* Ustaw elementy w kolumnie */
+  align-items: center; /* Wyśrodkuj wszystkie elementy */
+  gap: 15px; /* Odstępy między rzędami */
+  width: 100%;
+  margin-bottom: 20px;
+}
+.button-nav-group-action{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+
+}
+.report-buttons{
+  justify-content: flex-end;
+ margin-right: 70px;
+}
+.button-nav-group {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; /* Dopasowanie do szerokości ekranu */
+  gap: 15px; /* Odstępy między przyciskami */
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+/* Stylizacja zakładek */
+.tabs-nav {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  gap: 10px;
+}
+.action-button {
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  margin-left: 30px;
+}
+.tabs-nav a {
+  text-decoration: none;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+.tabs-nav li {
+  margin: 10px;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+.tab-content{
+  display: flex;
+  justify-content: center;
+}
+
+.tabs-nav a.active {
+  background: #0056b3;
+}
+
+.tabs-nav a:hover {
+  background: #0056b3;
+}

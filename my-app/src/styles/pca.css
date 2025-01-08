@@ -1,0 +1,10 @@
+.pca-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto; /* Wyśrodkowanie w pionie i margines */
+    max-width: 80%; /* Opcjonalne ograniczenie szerokości */
+    text-align: center; /* Wyśrodkowanie tekstu */
+  }
+  
